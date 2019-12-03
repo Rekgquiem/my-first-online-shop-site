@@ -7,6 +7,7 @@ body {
 
 .body {
 	height: 200%;
+	position: absolute;
 }
 
 
@@ -70,7 +71,6 @@ a:active {
 
 .tovar1, .tovar2, .tovar3, .tovar4, .tovar5 {
 	width: 10%;
-	border: solid black;
 	padding: 0.3% 0.3% 0.3% 0.3%;
 	border-width: 2px;
 }
