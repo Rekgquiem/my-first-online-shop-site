@@ -1,9 +1,16 @@
 body {
 	padding: 0;
 	margin: 0;
-	background-color: #CDCDCD;
+	background-color: #878886;
 	font-family: 'Montserrat', sans-serif;
 }
+
+.body {
+	height: 200%;
+}
+
+
+
 
 
 a:visited {
@@ -28,7 +35,7 @@ a:active {
 .header {
 	height: 100px;
 	width: 100%;
-	background-color: #4F4F4F;
+	background-color: #5D5D5D;
 }
 
 .upper_links {
@@ -45,6 +52,48 @@ a:active {
 }
 
 .upper_a:hover {
-	color: #FFFFFF;
+	color: #E21AED;
 	text-decoration: overline;
+}
+
+
+
+
+
+.middle {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tovar1, .tovar2, .tovar3, .tovar4, .tovar5 {
+	width: 10%;
+	border: solid black;
+	padding: 0.3% 0.3% 0.3% 0.3%;
+	border-width: 2px;
+}
+
+
+
+
+
+.under_middle {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 11.2%;
+	margin-right: 11.2%;
+	margin-top: 0.3%;
+}
+
+.under_middle_buy {
+	font-size: 2em;
+	border: solid black;
+	padding: 0.2%;
+	border-width: 1px;
+}
+
+.under_middle_buy:hover {
+	color: #FFFFFF;
 }
